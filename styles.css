@@ -38,6 +38,7 @@ p{
 a, a:visited{
     color: #e8d4cd;
     text-decoration: none;
+    width: fit-content;
 }
 
 a:hover{
@@ -62,6 +63,16 @@ ul{
     padding: 3vh 0;
 
 }
+
+svg{
+  width: 1.15em;
+  height: fit-content;
+}
+
+svg:hover {
+  filter: drop-shadow(0 0 10px #e8d4cd) drop-shadow(0 0 20px #e8d4cd) drop-shadow(0 0 30px #e8d4cd);
+}
+
 
 div{
     padding: 3% 5%;
