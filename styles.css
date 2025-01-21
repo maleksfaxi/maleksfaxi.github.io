@@ -82,6 +82,14 @@ div{
     align-items: center;
 }
 
+iframe{
+  width: 380px;
+  height: 580px;
+  border-style: none;
+  overflow: hidden;
+  margin: 15% 0;
+}
+
 .title{
     margin-top: 5vh;
 }
